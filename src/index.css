@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@layer base {
+  .text-transparent {
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}
+
+body {
+  margin: 0;
+  background-color: #0a0a0c;
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
